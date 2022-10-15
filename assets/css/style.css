@@ -1,3 +1,14 @@
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('./fonts/OpenSans-Medium.ttf') format('truetype'), 
+    url('./fonts/OpenSans-Medium.woff') format('woff'),
+        url("./fonts/OpenSans-Medium.woff2") format("woff2");
+}
+
+body{
+    font-family: MyFont !important;
+}
 /*------------------------
 -----------------------------
 ----------------------------*/
