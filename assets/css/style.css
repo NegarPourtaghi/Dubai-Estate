@@ -28,11 +28,11 @@ body{
 .c1 {
     margin-top: 40px;
 }
-
+.logo{
+    width: 18%;
+}
 .logo-image {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
+   width: 100%;
 }
 
 .estatelogo {
@@ -109,6 +109,9 @@ body{
     border-bottom-width: medium;
     border-bottom: 1px solid #d7d5d5;
     color: gray;
+}
+.forminput:hover , .forminput:focus{
+outline: none;
 }
 .forms{
     width: 40%;
@@ -189,32 +192,31 @@ text-align: left;
 
 @media(max-width:450px) {
     .header {
-        height: 170px;
+        height: 200px;
     }
 }
 
 @media(max-width:390px) {
     .header {
-        height: 150px;
+        height: 180px;
     }
 }
 
 @media(max-width:360px) {
     .header {
-        height: 140px;
+        height: 160px;
     }
 }
 
 @media(max-width:340px) {
     .header {
-        height: 120px;
+        height: 150px;
     }
 }
 
 @media(max-width:1000px) {
-    .logo-image {
-        width: 60px;
-        height: 60px;
+    .logo {
+       width: 22%;
     }
 }
 
@@ -230,15 +232,24 @@ text-align: left;
     .items {
         font-size: 16px;
     }
+    .c1{
+        max-width: 90% !important ;
+        width: 100% ;
+    }
+    .logo{
+        width: 24%;
+    }
 }
 
 @media(max-width:550px) {
-    .logo-image {
-        width: 50px;
-        height: 50px;
+    .logo {
+       width: 40%;
+       margin-right: auto;
+margin-left: auto;
     }
 .text{
-    height: 500px;
+    position: relative;
+    height: 580px;
 }
     .text1 {
         font-size: 26px;
@@ -246,17 +257,27 @@ text-align: left;
 
     .text2 {
         font-size: 22px;
+        margin-top: 50px;
     }
 
     .items {
         font-size: 16px;
     }
+    .button{
+        position: absolute;
+width: 90%;
+bottom: 0;
+margin-right: auto;
+margin-left: auto;
+right: 0;
+left: 0;
+    }
 }
 
 @media(max-width:450px) {
-    .logo-image {
-        width: 40px;
-        height: 40px;
+    .logo {
+        width: 46%;
+     
     }
 
     .text1 {
@@ -277,9 +298,9 @@ text-align: left;
 
 
 @media(max-width:400px) {
-    .logo-image {
-        width: 30px;
-        height: 30px;
+    .logo {
+        width: 46%;
+       
     }
 
     .text1 {
@@ -288,7 +309,6 @@ text-align: left;
 
     .text2 {
         font-size: 16px;
-        margin-top: 26px;
     }
 
     .items {
