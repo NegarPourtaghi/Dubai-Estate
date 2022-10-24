@@ -1,6 +1,8 @@
 $('#nextPage').click(function() {
         $('.c2').removeClass('c2');
         $('.c1').addClass('c11');
+        $('#nextbtn').addClass('btnremove');
+
 
     });
 
@@ -8,7 +10,10 @@ $('#nextPage').click(function() {
     $('#previosPage').click(function() {
         $('.container2').addClass('c2');
         $('.c1').removeClass('c11');
+setTimeout(() => {
+    $('#nextbtn').removeClass('btnremove');
 
+}, 600);
     });
 
 

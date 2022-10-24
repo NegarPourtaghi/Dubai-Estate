@@ -137,7 +137,30 @@ outline: none;
         transform: translateY(100%);
     }
 }
+.slideUpbtn {
+    animation-name: slideUpbtn;
+    -webkit-animation-name: slideUpbtn;
 
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+
+}
+
+@keyframes slideUpbtn {
+    100% {
+        transform: translateY(0%);
+    }
+
+    0% {
+        transform: translateY(100%);
+    }
+}
+.btnremove{
+display:none;
+}
 .back,
 .submit {
     width: 60%;
@@ -271,7 +294,10 @@ margin-right: auto;
 margin-left: auto;
 right: 0;
 left: 0;
+
     }
+
+   
 }
 
 @media(max-width:450px) {
