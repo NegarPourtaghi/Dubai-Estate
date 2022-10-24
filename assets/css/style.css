@@ -141,8 +141,8 @@ outline: none;
     animation-name: slideUpbtn;
     -webkit-animation-name: slideUpbtn;
 
-    animation-duration: 1s;
-    -webkit-animation-duration: 1s;
+    animation-duration: 2s;
+    -webkit-animation-duration: 2s;
 
     animation-timing-function: ease-in-out;
     -webkit-animation-timing-function: ease-in-out;
